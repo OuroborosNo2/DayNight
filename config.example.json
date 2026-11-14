@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "language": "auto",
+  "schedule": {
+    "enabled": true,
+    "light_at": "07:00",
+    "dark_at": "19:00"
+  },
+  "theme": {
+    "change_apps": true,
+    "change_system": true,
+    "apply_accent": false,
+    "accent_color": "#FF0078D4",
+    "show_accent_on_start_and_taskbar": false
+  },
+  "display": {
+    "gamma_enabled": false,
+    "contrast": 1.08,
+    "brightness": 0.0,
+    "gamma": 1.0,
+    "cabc_mode": "system",
+    "manage_cabc": false
+  },
+  "general": {
+    "start_with_windows": false,
+    "start_minimized": false,
+    "check_interval_seconds": 30
+  }
+}

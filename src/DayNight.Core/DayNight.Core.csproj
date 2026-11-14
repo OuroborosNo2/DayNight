@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>DayNight.Core</RootNamespace>
+    <AssemblyName>DayNight.Core</AssemblyName>
+    <Version>1.0.0</Version>
+    <Authors>DayNight Contributors</Authors>
+    <Description>Core library for DayNight — portable Windows light/dark and display comfort toolkit.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\..\locales\*.json" LogicalName="DayNight.Core.locales.%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>
